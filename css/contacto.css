@@ -1,0 +1,167 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+	margin: 0 auto;
+	overflow: auto;
+	width: 960px;
+}
+
+.logo{
+	float: left;
+	padding: 21px 0px;
+}
+
+nav{
+	float: right;
+	padding: 27px 0px;
+}
+
+li{
+	display: inline;	
+}
+
+nav ul li{
+	text-transform: uppercase;
+	font-size: 10px;
+	padding-left: 15px;
+}
+
+nav ul li.contacto{
+	font-weight: bold;
+}
+
+nav ul li a{
+	color: inherit;
+}
+
+.fondoContacto {
+	background-image: url('../img/fondoContacto.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fondoContacto h1, .fondoContacto h3{
+	text-align: center;
+	color: #fff;
+}
+
+.fondoContacto h1{
+	font-size: 40px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	padding-top: 100px;
+}
+
+.fondoContacto h3{
+	padding: 10px 0px 184px;
+	width: 500px;
+    margin: 0 auto;
+    line-height: 20px;
+}
+
+#seccionDos{
+	text-align: center;
+	color: #000;
+}
+
+#seccionDos h2{
+	font-size: 35px;
+	font-weight: bold;
+	padding: 50px 0px 20px;
+}
+
+#seccionDos h3{
+	padding-bottom: 40px;
+}
+
+#contacto{
+	padding: 0px 100px 50px;
+	overflow: auto;
+}
+
+.formDer{
+	width: 50%;
+	float: right;
+	min-height: 200px;
+}
+
+.formIzq{
+	width: 50%;
+	float: left;
+	min-height: 200px;
+}
+
+.formCentro{
+	text-align: center;
+}
+
+.formIzq input, .formDer textarea{
+	width: 95%;
+	border: 1px #448AFF solid;
+	margin-bottom: 15px;
+	border-radius: 4px;
+	font-family: 'Raleway', sans-serif;
+	padding: 15px;
+}
+
+#contacto input{
+	display: block;
+}
+
+#contacto .formCentro input{
+	display: inline;
+    padding: 15px 60px;
+    color: #fff;
+    background-color: #448AFF;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+#seccionCuatro{
+	background: #01579B;
+}
+
+.happy {
+	padding: 100px;
+	text-align: center;
+}
+
+.happy h2{
+    color: #fff;
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.happy h3{
+    color: #448AFF;
+    display: inline;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+footer{
+	background-color: #455A64;
+	color: #fff;
+}
+
+footer h3{
+	display: inline;
+    padding: 29px 0px;
+    float: left;
+    font-size: 12px;
+    line-height: 40px;
+}
+
+footer li a{
+	line-height: 40px;
+}
+
+footer li a .material-icons{
+	vertical-align: middle;
+}
